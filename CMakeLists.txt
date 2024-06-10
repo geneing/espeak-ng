@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.22)
 
 project(espeak-ng
   VERSION 1.52.0.1
@@ -6,8 +6,8 @@ project(espeak-ng
   HOMEPAGE_URL "https://github.com/espeak-ng/espeak-ng"
 )
 
-option(BUILD_ESPEAK_NG_EXE "Whether to build espeak-ng-bin" ON)
-option(BUILD_ESPEAK_NG_TESTS "Whether to build tests" ON)
+option(BUILD_ESPEAK_NG_EXE "Whether to build espeak-ng-bin" OFF)
+option(BUILD_ESPEAK_NG_TESTS "Whether to build tests" OFF)
 
 include(CTest)
 
